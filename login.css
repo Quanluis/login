@@ -30,12 +30,13 @@ button {
     background-color:pink;  
     color: white; 
     border: none; 
-    padding: 14px 40px; 
+    padding: 14px 0px; 
     margin: auto;
     cursor: pointer;
-    width: 60%; 
+    width: 40%; 
     display: flex; 
     justify-content: center; 
+    
     
 
 }
@@ -48,8 +49,21 @@ button :hover {
 }
 input[type=text], input[type=password] {
     width: 25%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 14px 40px;
+    margin: 10px 50px;
     display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;s
+    border: 1px solid rgb(114, 196, 250);
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgb(128, 203, 247);
+    width: 40%;
+    justify-content: center;
+    display: inline-block;
+    margin: 20px;
+    height: 10%;
+}
+.psw {
+    color: red;
+    float: right'
+}
