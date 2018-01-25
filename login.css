@@ -1,0 +1,55 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+   
+}
+h1 {
+   margin: auto; 
+text-align: center;
+width: 100%;
+
+}
+.title {
+    text-align: center;
+    padding: 50px 0 20px; 
+
+}
+.title h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 36px; 
+    text-transform: uppercase; 
+    color: red;
+    
+}
+   
+button {
+    background-color:pink;  
+    color: white; 
+    border: none; 
+    padding: 14px 40px; 
+    margin: auto;
+    cursor: pointer;
+    width: 60%; 
+    display: flex; 
+    justify-content: center; 
+    
+
+}
+.cancelbutton {
+    background-color: blue;
+    width: 25%;
+}
+button :hover {
+    opacity: 0.8; 
+}
+input[type=text], input[type=password] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;s
